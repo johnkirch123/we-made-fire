@@ -1,0 +1,75 @@
+.about {
+  width: 100%;
+  max-width: 190rem;
+  background-color: #171717;
+  height: 100%;
+
+  &__background {
+    padding-top: 8rem;
+  }
+
+  &__body {
+    padding: 5rem;
+    max-width: 150rem;
+    margin: 0 auto;
+  }
+
+  &__caveman-pic {
+    height: 25rem;
+    width: 25rem;
+    margin: 2rem;
+    margin-top: 7rem;
+    margin-left: 5rem;
+    shape-outside: circle();
+    border-radius: 50%;
+    float: left;
+  }
+
+  &__profile-pic {
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    float: right;
+    margin: 2rem;
+    margin-top: 7rem;
+    margin-right: 5rem;
+    shape-outside: circle();
+  }
+
+  &__cavemen {
+    height: 30rem;
+    width: 30rem;
+    margin: 1.5rem auto;
+  }
+
+  &__header {
+    font-size: 5rem;
+    text-align: center;
+    background: linear-gradient(to right bottom, #fdf11e, #ac8d04);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  &__description {
+    padding: 3.5rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: #fdf11e;
+  }
+
+  &__left {
+    float: left;
+    shape-outside: circle();
+  }
+
+  &__right {
+    float: right;
+    margin-top: 5rem;
+    shape-outside: circle();
+  }
+}
+
+.image {
+  margin-left: auto;
+}

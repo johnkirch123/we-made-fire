@@ -1,0 +1,52 @@
+.dashboard {
+  background-color: #222;
+  color: white;
+  text-align: center;
+
+  padding-top: 5rem;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1.5rem calc(100vh - 8.5rem) 2rem;
+
+  &__shells {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  &__area {
+    margin: 0 auto;
+    padding: 3rem;
+    width: 90%;
+  }
+
+  &__collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    max-width: 12rem;
+
+    &--image {
+      max-width: 100%;
+    }
+
+    &--link {
+      font-size: 1.6rem;
+      transition: transform 0.2s ease-in-out;
+
+      &:hover {
+        text-decoration: none;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
